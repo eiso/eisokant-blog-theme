@@ -1,7 +1,7 @@
 $header-font-stack: 'Montserrat', Helvetica, Arial, sans-serif;
 $content-font-stack: 'Lora', 'Times New Roman', Times, serif;
-$footer-height: 15rem;
-$primary-color: #00807a;
+$footer-height: 5rem;
+$primary-color: #245F90;
 $secondary-color: #222;
 $body-color: #fefefe; // ghostwriter
 $content-font-size: 1.1rem;
@@ -144,8 +144,8 @@ blockquote {
   padding: 2rem;
 
   .copyright {
-    margin-top: 4rem;
-    margin-bottom: 0.7rem;
+    //margin-top: 4rem;
+    //margin-bottom: 0.7rem;
   }
 }
 

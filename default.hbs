@@ -34,7 +34,7 @@
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'YOUR_ID_HERE', 'auto');
+        ga('create', 'UA-77193500-1', 'auto');
         ga('send', 'pageview', location.pathname + location.search);
     </script>
 
@@ -50,11 +50,12 @@
     </div>
 
     <footer class="site-footer text-center">
-         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-         <section class="poweredby">
+         <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> / <a href="http://twitter.com/eisokant">Twitter</a><!-- &copy; {{date format="YYYY"}} --></section>
+ <!--        <section class="poweredby">
              Proudly published with <a href="https://ghost.org">Ghost</a>
              using the <a href="https://github.com/mihneadb/no-nonsense">no-nonsense</a> theme.
-         </section>
+--> 
+        </section>
     </footer>
 
     {{! Ghost outputs important scripts and data with this tag }}

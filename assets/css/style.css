@@ -45,17 +45,17 @@ img.author-thumb {
   margin-top: 3rem; }
 
 h1, h2, h3, h4, h5, h6, .post-title {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700; }
 
 body {
-  font-family: 'Lora', 'Times New Roman', Times, serif !important;
+  font-family: "Lora", "Times New Roman", Times, serif !important;
   font-weight: 400;
   background-color: #fefefe; }
 
 a {
-  color: #00807a; }
+  color: #245F90; }
 
 code {
   font-size: small; }
@@ -69,7 +69,7 @@ blockquote {
   padding-bottom: 0.1rem; }
 
 .label {
-  background-color: #00807a;
+  background-color: #245F90;
   border: 1px solid #fefefe;
   font-size: 1.3rem; }
 
@@ -79,8 +79,8 @@ blockquote {
 
 .label:hover {
   background-color: #fff;
-  color: #00807a;
-  border: 1px solid #00807a; }
+  color: #245F90;
+  border: 1px solid #245F90; }
 
 .main-nav {
   margin-top: 0.5rem; }
@@ -95,13 +95,10 @@ blockquote {
 .site-footer {
   background-color: #222;
   color: #AAA;
-  height: 15rem;
+  height: 5rem;
   font-size: large;
   margin-top: 2rem;
   padding: 2rem; }
-  .site-footer .copyright {
-    margin-top: 4rem;
-    margin-bottom: 0.7rem; }
 
 * {
   margin: 0; }
@@ -111,15 +108,16 @@ html, body {
 
 .content-wrapper {
   min-height: 100%;
-  margin-bottom: -15rem; }
+  margin-bottom: -5rem; }
 
 .content-wrapper:after {
   content: "";
   display: block;
-  height: 15rem; }
+  height: 5rem; }
 
 .share ul {
   margin-top: 1rem; }
+
 .share li {
   list-style-type: none;
   display: inline-block;
@@ -133,6 +131,7 @@ html, body {
 
 .related-posts-wrapper p {
   margin-bottom: 0.5rem; }
+
 .related-posts-wrapper ul {
   list-style-type: none;
   margin-left: 0rem; }
@@ -160,7 +159,7 @@ section.comments {
   height: 20rem;
   background-size: cover;
   background-position: center center;
-  border: 1px solid #00807a; }
+  border: 1px solid #245F90; }
 
 .author-image .img .hidden {
   display: none; }
